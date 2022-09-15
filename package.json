@@ -1,9 +1,14 @@
 {
   "name": "ghops-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "Action to apply Ghops operations",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "Apache 2.0"
+  "keywords": ["devops", "github"],
+  "author": "@mariogarcia",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3",
+    "@my-devops-playground/ghops-action": "^1.0.1"
+  }
 }

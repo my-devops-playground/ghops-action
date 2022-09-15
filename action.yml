@@ -1,11 +1,11 @@
 name: 'Ghops Action'
 description: 'Github Operations automation'
 inputs:
-  ghops-file:
-    description: 'Configuration file'
+  ghops-config:
+    description: 'Path to the Ghops configuration file'
     required: true
     default: 'ghops.json'
-  gh-token:
+  ghops-token:
     description: 'Github Token'
     required: true
 runs:
