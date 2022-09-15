@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Action to apply Ghops operations",
   "main": "index.js",
+  "type": "module",
   "keywords": ["devops", "github"],
   "author": "@mariogarcia",
   "license": "Apache 2.0",
