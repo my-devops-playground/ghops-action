@@ -1,0 +1,13 @@
+name: 'Ghops Action'
+description: 'Github Operations automation'
+inputs:
+  ghops-file:
+    description: 'Configuration file'
+    required: true
+    default: 'ghops.json'
+  gh-token:
+    description: 'Github Token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
